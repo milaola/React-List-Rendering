@@ -1,22 +1,22 @@
-import React from 'react'
+import MovieItem from "./MovieItem";
 
 function MovieList() {
     const movies = [
         {
             id: 1,
-            title: PrimeTime,
+            title: "PrimeTime",
             year: 2026,
             review: "somebody get these PREDATORS out of here"
         },
         {
             id: 2,
-            title: ResidentEvil,
+            title: "Resident Evil",
             year: 2026,
-            review: "the backstory of that one random dead npc you find in every resident evil game"
+            review: "the backstory of that one random npc you find in every resident evil game"
         },
         {
             id: 3,
-            title:TheOdyssey,
+            title: "The Odyssey",
             year: 2026,
             review: "RIP odysseus you definitely would've loved google maps"
 
@@ -25,7 +25,7 @@ function MovieList() {
 
         {
             id: 4,
-            title: TheLoveHypothesis,
+            title: "The Love Hypothesis",
             year: 2026,
             review: "the love hypothesis crew could do interstellar but Christopher Nolan could never do the love hypothesis"
         },
