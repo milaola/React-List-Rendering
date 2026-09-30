@@ -1,5 +1,6 @@
 import MovieItem from "./MovieItem";
 
+
 function MovieList() {
     const movies = [
         {

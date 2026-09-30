@@ -95,6 +95,44 @@ p {
   margin: 0;
 }
 
+.movie-list {
+  width: min(900px,90%);
+  margin: 50px auto;
+}
+.movie-list-title{
+  margin-bottom: 30px;
+  color: #b8474779;
+  font-size: 36px;
+  text-align: center 
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.movie-item{
+  background-color: #0d0d61;
+  color: #f4f4f5;
+  padding: 24px;
+  margin-bottom: 16px;
+  border: 1px solid #27272a;
+  
+}
+.movie-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.movie-header h2{
+  margin: 0;
+  font-size:22px;
+
+}
+
+
+
+
 code,
 .counter {
   font-family: var(--mono);
