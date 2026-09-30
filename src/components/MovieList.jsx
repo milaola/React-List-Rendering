@@ -30,6 +30,20 @@ function MovieList() {
             review: "the love hypothesis crew could do interstellar but Christopher Nolan could never do the love hypothesis"
         },
 
+        {
+            id: 5,
+            title: "La La Land",
+            year: 2016,
+            review: "Boring Boring Boring"
+        },
+
+        {
+            id: 6,
+            title: "Sinners",
+            year: 2025,
+            review: "The kind of movie that reminds you why you fell in love with movies in the first place"
+        },
+
 
 
 
